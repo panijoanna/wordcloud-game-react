@@ -1,4 +1,4 @@
-import { StyledForm, LabelText, StyledInput } from "./styled";
+import { StyledForm, LabelText, StyledInput, FormButton } from "./styled";
 
 const Form = () => {
   return (
@@ -14,7 +14,7 @@ const Form = () => {
           maxLength="12"
           placeholder="Enter your nickname here..."
         />
-        <button>play</button>
+        <FormButton>play</FormButton>
     </StyledForm>
   );
 };
