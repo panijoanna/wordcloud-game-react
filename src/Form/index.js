@@ -1,10 +1,11 @@
-import { StyledForm } from "./styled";
+import { StyledForm, LabelText } from "./styled";
 
 const Form = () => {
   return (
     <StyledForm>
-      <label>
+      <LabelText>
         Wordcloud game
+        </LabelText>
         <input
           required
           type="text"
@@ -14,7 +15,6 @@ const Form = () => {
           placeholder="Enter your nickname here..."
         />
         <button>play</button>
-      </label>
     </StyledForm>
   );
 };
