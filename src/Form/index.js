@@ -9,8 +9,8 @@ const Form = () => {
           required
           type="text"
           name="nickname"
-          minlength="3"
-          maxlength="12"
+          minLength="3"
+          maxLength="12"
           placeholder="Enter your nickname here..."
         />
         <button>play</button>
