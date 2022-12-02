@@ -1,4 +1,4 @@
-import { StyledForm, LabelText } from "./styled";
+import { StyledForm, LabelText, StyledInput } from "./styled";
 
 const Form = () => {
   return (
@@ -6,7 +6,7 @@ const Form = () => {
       <LabelText>
         Wordcloud game
         </LabelText>
-        <input
+        <StyledInput
           required
           type="text"
           name="nickname"
