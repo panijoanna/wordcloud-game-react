@@ -20,3 +20,7 @@ font-family: 'Rubik', sans-serif;
 font-weight: 600;
 font-size: 20px;
 `;
+
+export const FormButton = styled.button`
+
+`;
