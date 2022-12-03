@@ -16,8 +16,9 @@ export const StyledInput = styled.input`
   border: 2px solid ${({ theme }) => theme.color.mercury};
   font-weight: 300;
   border-radius: 2px;
-  max-width: 350px;
-  padding: 10px;
+  max-width: 300px;
+  padding: 10px 100px 10px 5px;
+  text-align: left;
 
   ::placeholder {
     color: ${({ theme }) => theme.color.mineshaft};
