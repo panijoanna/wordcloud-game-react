@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
-export const StyledForm = styled.form``;
+export const StyledForm = styled.form`
+display: flex;
+flex-direction: column;
+margin: 40px;
+`;
 
 export const StyledInput = styled.input`
   border: 2px solid ${({ theme }) => theme.color.mercury};
   font-weight: 300;
   border-radius: 2px;
+
 
   ::placeholder {
     color: ${({ theme }) => theme.color.mineshaft};
