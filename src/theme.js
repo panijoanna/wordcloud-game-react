@@ -9,4 +9,7 @@ export const theme = {
     geraldine: "#F69B95",
     white: "#FFFFFF",
   },
+  breakpoint: {
+    mobileDevice: 767,
+  },
 };
