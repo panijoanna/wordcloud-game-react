@@ -19,6 +19,7 @@ export const StyledInput = styled.input`
   max-width: 300px;
   padding: 8px 80px 8px 5px;
   text-align: left;
+  margin: 10px;
 
   ::placeholder {
     color: ${({ theme }) => theme.color.mineshaft};
