@@ -21,6 +21,7 @@ export const StyledInput = styled.input`
 
   ::placeholder {
     color: ${({ theme }) => theme.color.mineshaft};
+    font-size: 12px;
   }
 `;
 
