@@ -17,7 +17,7 @@ export const StyledInput = styled.input`
   font-weight: 300;
   border-radius: 2px;
   max-width: 300px;
-  padding: 10px 100px 10px 5px;
+  padding: 8px 80px 8px 5px;
   text-align: left;
 
   ::placeholder {
