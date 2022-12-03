@@ -1,15 +1,14 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.form`
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Container = styled.div`
-display: flex;
-justify-content: center;
-margin: 40px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const StyledInput = styled.input`
@@ -36,12 +35,15 @@ export const FormButton = styled.button`
   font-family: "Rubik", sans-serif;
   border-radius: 4px;
   padding: 5px 20px;
-  max-width: 100px;
   background-color: ${({ theme }) => theme.color.white};
   border: 2px solid ${({ theme }) => theme.color.perano};
   color: ${({ theme }) => theme.color.perano};
 
   &:hover {
     filter: brightness(110%);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    width: 100%;
   }
 `;
