@@ -1,11 +1,16 @@
-import { StyledForm, LabelText, StyledInput, FormButton } from "./styled";
+import {
+  StyledForm,
+  LabelText,
+  StyledInput,
+  FormButton,
+  Container,
+} from "./styled";
 
 const Form = () => {
   return (
-    <StyledForm>
-      <LabelText>
-        Wordcloud game
-        </LabelText>
+    <Container>
+      <StyledForm>
+        <LabelText>Wordcloud game</LabelText>
         <StyledInput
           required
           type="text"
@@ -15,7 +20,8 @@ const Form = () => {
           placeholder="Enter your nickname here..."
         />
         <FormButton>play</FormButton>
-    </StyledForm>
+      </StyledForm>
+    </Container>
   );
 };
 
