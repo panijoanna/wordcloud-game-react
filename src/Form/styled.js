@@ -23,6 +23,11 @@ export const StyledInput = styled.input`
     color: ${({ theme }) => theme.color.mineshaft};
     font-size: 12px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    width: 100%;
+    padding: 5px;
+  }
 `;
 
 export const LabelText = styled.label`
