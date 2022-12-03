@@ -29,7 +29,7 @@ export const StyledInput = styled.input`
 export const LabelText = styled.label`
   font-family: "Rubik", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
 `;
 
 export const FormButton = styled.button`
