@@ -4,7 +4,12 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Form/>
+    <>
+      <Form />
+      <Routes>
+        <Route path="/cloud" element={<Cloud />}></Route>
+      </Routes>
+    </>
   );
 }
 
