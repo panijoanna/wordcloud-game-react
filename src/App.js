@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Form />
       <Routes>
         <Route path="/cloud" element={<Cloud />}></Route>
       </Routes>
