@@ -7,6 +7,10 @@ import {
 } from "./styled";
 
 const Form = () => {
+  const onFormSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <Container>
       <StyledForm>
@@ -19,7 +23,7 @@ const Form = () => {
           maxLength="12"
           placeholder="Enter your nickname here..."
         />
-        <FormButton>play</FormButton>
+        <FormButton onSubmit={onFormSubmit}>play</FormButton>
       </StyledForm>
     </Container>
   );
