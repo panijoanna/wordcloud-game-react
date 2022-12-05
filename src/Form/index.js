@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 const Form = () => {
   const navigate = useNavigate();
-  
+
   const handleClick = () => {
     navigate("/cloud");
   };
@@ -30,7 +30,11 @@ const Form = () => {
           maxLength="12"
           placeholder="Enter your nickname here..."
         />
-        <FormButton onSubmit={onFormSubmit}>play</FormButton>
+        <FormButton 
+          onClick={handleClick}
+          onSubmit={onFormSubmit}>
+            play
+        </FormButton>
       </StyledForm>
     </Container>
   );
