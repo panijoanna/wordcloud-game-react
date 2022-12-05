@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/wordcloud-game-react" element={<Form />}></Route>
         <Route path="/cloud" element={<Cloud />}></Route>
       </Routes>
     </>
