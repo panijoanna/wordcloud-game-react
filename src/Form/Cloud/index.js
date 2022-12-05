@@ -2,11 +2,11 @@ import { CloudContainer } from "./styled";
 import { FormButton } from "../styled";
 
 const Cloud = () => {
-return (
-<CloudContainer>
-    
-</CloudContainer>
-);
+  return (
+    <CloudContainer>
+      <FormButton>Check answer</FormButton>
+    </CloudContainer>
+  );
 };
 
 export default Cloud;
