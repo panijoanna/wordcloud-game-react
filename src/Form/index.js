@@ -16,7 +16,7 @@ const Form = () => {
 
   return (
     <Container>
-      <StyledForm>
+      <StyledForm onSubmit={onFormSubmit}>
         <LabelText>Wordcloud game</LabelText>
         <StyledInput
           required
