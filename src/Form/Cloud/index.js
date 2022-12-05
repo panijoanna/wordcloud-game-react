@@ -4,3 +4,5 @@ import { FormButton } from "../styled";
 const Cloud = () => {
 
 };
+
+export default Cloud;
