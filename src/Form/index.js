@@ -10,10 +10,6 @@ import { useNavigate } from "react-router-dom";
 const Form = () => {
   const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate("/cloud");
-  };
-
   const onFormSubmit = (event) => {
     event.preventDefault();
   };
