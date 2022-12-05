@@ -26,11 +26,7 @@ const Form = () => {
           maxLength="12"
           placeholder="Enter your nickname here..."
         />
-        <FormButton 
-          onClick={handleClick}
-          onSubmit={onFormSubmit}>
-            play
-        </FormButton>
+        <FormButton onClick={() => navigate("/cloud")}>play</FormButton>
       </StyledForm>
     </Container>
   );
