@@ -12,5 +12,8 @@ export const CloudContainer = styled.div`
 `;
 
 export const MainContainer = styled.div`
-
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 80px;
 `;
