@@ -5,4 +5,8 @@ export const CloudContainer = styled.div`
   width: 500px;
   height: 300px;
   border-radius: 4px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    width: 100%;
+  }
 `;
