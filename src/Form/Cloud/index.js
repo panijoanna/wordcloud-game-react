@@ -1,4 +1,4 @@
-import { CloudContainer } from "./styled";
+import { CloudContainer, CloudButton } from "./styled";
 import { FormButton } from "../styled";
 
 const Cloud = () => {
