@@ -28,6 +28,7 @@ const Form = () => {
         <LabelText>Wordcloud game</LabelText>
         <StyledInput
           required
+          autoComplete="off"
           ref={inputRef}
           type="text"
           name="nickname"
