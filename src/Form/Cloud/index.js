@@ -3,9 +3,11 @@ import { FormButton } from "../styled";
 
 const Cloud = () => {
   return (
-    <CloudContainer>
-      <FormButton>Check answer</FormButton>
-    </CloudContainer>
+    <MainContainer>
+      <Heading>Select animals</Heading>
+      <CloudContainer></CloudContainer>
+      <CloudButton>Check answers</CloudButton>
+    </MainContainer>
   );
 };
 
