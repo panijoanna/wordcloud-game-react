@@ -9,7 +9,9 @@ import { useNavigate } from "react-router-dom";
 import { useRef, useEffect } from "react";
 
 const Form = () => {
+
   const navigate = useNavigate();
+  const inputRef = useRef(null);
 
   const onFormSubmit = (event) => {
     event.preventDefault();
