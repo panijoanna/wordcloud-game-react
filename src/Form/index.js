@@ -13,6 +13,10 @@ const Form = () => {
   const navigate = useNavigate();
   const inputRef = useRef(null);
 
+  useEffect(() => {
+
+  }, [])
+
   const onFormSubmit = (event) => {
     event.preventDefault();
   };
