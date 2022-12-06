@@ -10,3 +10,7 @@ export const CloudContainer = styled.div`
     width: 100%;
   }
 `;
+
+export const MainContainer = styled.div`
+
+`;
