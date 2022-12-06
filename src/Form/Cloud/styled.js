@@ -19,5 +19,7 @@ margin: 80px;
 `;
 
 export const Heading = styled.h1`
-
+font-family: "Rubik", sans-serif;
+font-weight: 600;
+font-size: 16px;
 `;
