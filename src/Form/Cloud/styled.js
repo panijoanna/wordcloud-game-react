@@ -23,3 +23,7 @@ font-family: "Rubik", sans-serif;
 font-weight: 600;
 font-size: 16px;
 `;
+
+export const CloudButton = styled.button`
+
+`;
