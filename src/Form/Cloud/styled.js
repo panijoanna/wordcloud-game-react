@@ -17,3 +17,7 @@ flex-direction: column;
 align-items: center;
 margin: 80px;
 `;
+
+export const Heading = styled.h1`
+
+`;
