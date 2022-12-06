@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wordcloud-game-react/static/css/main.e6c13ad2.css",
-    "main.js": "/wordcloud-game-react/static/js/main.b76bf9e5.js",
+    "main.js": "/wordcloud-game-react/static/js/main.dff4b9ad.js",
     "static/js/787.d0e2d397.chunk.js": "/wordcloud-game-react/static/js/787.d0e2d397.chunk.js",
     "index.html": "/wordcloud-game-react/index.html",
     "main.e6c13ad2.css.map": "/wordcloud-game-react/static/css/main.e6c13ad2.css.map",
-    "main.b76bf9e5.js.map": "/wordcloud-game-react/static/js/main.b76bf9e5.js.map",
+    "main.dff4b9ad.js.map": "/wordcloud-game-react/static/js/main.dff4b9ad.js.map",
     "787.d0e2d397.chunk.js.map": "/wordcloud-game-react/static/js/787.d0e2d397.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b76bf9e5.js"
+    "static/js/main.dff4b9ad.js"
   ]
 }
