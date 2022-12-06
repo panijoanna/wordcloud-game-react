@@ -28,6 +28,7 @@ const Form = () => {
         <LabelText>Wordcloud game</LabelText>
         <StyledInput
           required
+          ref={inputRef}
           type="text"
           name="nickname"
           minLength="3"
