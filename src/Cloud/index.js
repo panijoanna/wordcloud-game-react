@@ -4,7 +4,9 @@ import { useState } from "react";
 
 const Cloud = () => {
 
-const [currentQuestion, setCurrentQuestion] = useState();
+const [currentQuestion, setCurrentQuestion] = useState(
+  Math.floor(Math.random() * words.length)
+);
 
   return (
     <MainContainer>
