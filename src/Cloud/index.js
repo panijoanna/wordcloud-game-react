@@ -3,6 +3,9 @@ import { words } from "../words/words";
 import { useState } from "react";
 
 const Cloud = () => {
+
+const [currentQuestion, setCurrentQuestion] = useState();
+
   return (
     <MainContainer>
       <Heading>Select animals</Heading>
