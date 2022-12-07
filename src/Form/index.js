@@ -6,7 +6,7 @@ import {
   Container,
 } from "./styled";
 import { useNavigate } from "react-router-dom";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 const Form = () => {
 
