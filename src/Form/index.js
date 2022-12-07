@@ -9,6 +9,8 @@ import { useNavigate } from "react-router-dom";
 import { useRef, useEffect } from "react";
 
 const Form = () => {
+
+  const [nickName, setNickName] = useState("");
   const navigate = useNavigate();
   const inputRef = useRef(null);
 
