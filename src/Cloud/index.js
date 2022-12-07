@@ -3,18 +3,17 @@ import { words } from "../words/words";
 import { useState } from "react";
 
 const Cloud = () => {
-
-const [currentQuestion, setCurrentQuestion] = useState(
-  Math.floor(Math.random() * words.length)
-);
+  const [currentQuestion, setCurrentQuestion] = useState(
+    Math.floor(Math.random() * words.length)
+  );
 
   return (
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
       <CloudContainer>
         {words[currentQuestion].all_words.map((word, index) => (
-          
-        ))}
+          <Item key={index}>{word}</Item>
+        ))};
       </CloudContainer>
       <CloudButton>Check answers</CloudButton>
     </MainContainer>
