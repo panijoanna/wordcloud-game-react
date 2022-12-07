@@ -1,4 +1,4 @@
-import { CloudContainer, CloudButton, MainContainer, Heading } from "./styled";
+import { CloudContainer, CloudButton, MainContainer, Heading, Item } from "./styled";
 import { words } from "../words/words";
 import { useState } from "react";
 
