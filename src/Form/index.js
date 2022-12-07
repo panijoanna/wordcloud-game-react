@@ -31,6 +31,7 @@ const Form = () => {
         <StyledInput
           required
           autoComplete="off"
+          value={nickName}
           ref={inputRef}
           type="text"
           name="nickname"
