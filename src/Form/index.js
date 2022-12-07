@@ -32,6 +32,7 @@ const Form = () => {
           required
           autoComplete="off"
           value={nickName}
+          onChange={({ target }) => setNickName(target.value)}
           ref={inputRef}
           type="text"
           name="nickname"
