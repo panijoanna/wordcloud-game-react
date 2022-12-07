@@ -10,7 +10,7 @@ const [currentQuestion, setCurrentQuestion] = useState(
 
   return (
     <MainContainer>
-      <Heading>Select animals</Heading>
+      <Heading>{words[currentQuestion].question}</Heading>
       <CloudContainer></CloudContainer>
       <CloudButton>Check answers</CloudButton>
     </MainContainer>
