@@ -11,7 +11,11 @@ const [currentQuestion, setCurrentQuestion] = useState(
   return (
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
-      <CloudContainer></CloudContainer>
+      <CloudContainer>
+        {words[currentQuestion].all_words.map((word, index) => (
+          
+        ))}
+      </CloudContainer>
       <CloudButton>Check answers</CloudButton>
     </MainContainer>
   );
