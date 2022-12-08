@@ -1,4 +1,10 @@
-import { CloudContainer, CloudButton, MainContainer, Heading, Item } from "./styled";
+import {
+  CloudContainer,
+  CloudButton,
+  MainContainer,
+  Heading,
+  Item,
+} from "./styled";
 import { words } from "../words/words";
 import { useState } from "react";
 
@@ -8,7 +14,7 @@ const Cloud = () => {
   );
 
   const [active, setActive] = useState(false);
-  
+
   const activeItem = () => {
     setActive(!active);
   };
@@ -18,8 +24,14 @@ const Cloud = () => {
       <Heading>{words[currentQuestion].question}</Heading>
       <CloudContainer>
         {words[currentQuestion].all_words.map((word, index) => (
-          <Item key={index}>{word}</Item>
-        ))};
+          <Item 
+            key={index}
+            onClick={activeItem}
+            >
+              {word}
+            </Item>
+        ))}
+        ;
       </CloudContainer>
       <CloudButton>Check answers</CloudButton>
     </MainContainer>
