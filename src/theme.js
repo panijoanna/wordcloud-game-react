@@ -8,6 +8,7 @@ export const theme = {
     cinderella: "#FCD1CF",
     geraldine: "#F69B95",
     white: "#FFFFFF",
+    silver: "#BFBFBF",
   },
   breakpoint: {
     mobileDevice: 767,
