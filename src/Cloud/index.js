@@ -9,6 +9,9 @@ const Cloud = () => {
 
   const [active, setActive] = useState(false);
   
+  const activeItem = () => {
+    setActive(!active);
+  };
 
   return (
     <MainContainer>
