@@ -27,6 +27,7 @@ const Cloud = () => {
           <Item 
             key={index}
             onClick={activeItem}
+            active={active}
             >
               {word}
             </Item>
