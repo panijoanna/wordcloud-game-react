@@ -47,4 +47,5 @@ padding: 10px;
 font-family: "Rubik", sans-serif;
 font-weight: 500;
 font-size: 14px;
+cursor: pointer;
 `;
