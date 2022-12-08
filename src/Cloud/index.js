@@ -29,8 +29,8 @@ const Cloud = () => {
             onClick={activeItem}
             active={active}
             >
-              {word}
-            </Item>
+            {word}
+          </Item>
         ))}
         ;
       </CloudContainer>
