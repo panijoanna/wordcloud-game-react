@@ -7,6 +7,9 @@ const Cloud = () => {
     Math.floor(Math.random() * words.length)
   );
 
+  const [active, setActive] = useState(false);
+  
+
   return (
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
