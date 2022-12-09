@@ -13,22 +13,18 @@ const Cloud = () => {
     Math.floor(Math.random() * words.length)
   );
 
-  const [active, setActive] = useState(false);
-
-  const activeItem = () => {
-    setActive(!active);
-  };
+  const [activeWord, setActiveWord] = useState(null);
 
   return (
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
       <CloudContainer>
         {words[currentQuestion].all_words.map((word, index) => (
-          <Item 
+          <Item
             key={index}
-            onClick={activeItem}
-            active={active}
-            >
+            onClick={() => setActiveWord(word)}
+            active={word === activeWord}
+          >
             {word}
           </Item>
         ))}
