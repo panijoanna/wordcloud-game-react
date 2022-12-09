@@ -1,8 +1,21 @@
 # 📁 Wordcloud game/React 🎲
 
+## ✅ Introduction 
+This is a game of words.
+
 # ✅ Demo
 Here is my demo:
 https://panijoanna.github.io/wordcloud-game-react/
+
+## ✅ Instruction
+1. Enter your nickname
+2. Click play button
+3. See what category of words are in the title
+4. Select matching words
+5. Click check answers
+6. See your answers (which are correct and which are incorrect)
+7. Click finish game
+8. Here is your result
 
 ## ✅ Available Scripts
 
