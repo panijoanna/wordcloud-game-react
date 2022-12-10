@@ -15,6 +15,10 @@ const Cloud = () => {
 
   const [activeWord, setActiveWord] = useState(new Set());
 
+  const setActiveWord = (word) => {
+
+  };
+
   return (
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
