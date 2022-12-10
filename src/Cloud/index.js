@@ -15,7 +15,7 @@ const Cloud = () => {
 
   const [activeWords, setActiveWords] = useState(new Set());
 
-  const setActiveWord = (word) => {
+  const setActiveItem = (word) => {
     if (activeWords.has(word)) {
       activeWords.delete(word);
     } else {
@@ -32,7 +32,7 @@ const Cloud = () => {
         {words[currentQuestion].all_words.map((word, index) => (
           <Item
             key={index}
-            onClick={() => setActiveWord(word)}
+            onClick={() => setActiveItem(word)}
             active={activeWords.has(word)}
           >
             {word}
