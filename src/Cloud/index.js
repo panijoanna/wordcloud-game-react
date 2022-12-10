@@ -13,7 +13,7 @@ const Cloud = () => {
     Math.floor(Math.random() * words.length)
   );
 
-  const [activeWord, setActiveWord] = useState(null);
+  const [activeWord, setActiveWord] = useState(new Set());
 
   return (
     <MainContainer>
