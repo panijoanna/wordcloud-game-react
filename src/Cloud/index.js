@@ -33,7 +33,7 @@ const Cloud = () => {
           <Item
             key={index}
             onClick={() => setActiveWord(word)}
-            active={word === activeWord}
+            active={activeWords.has(word)}
           >
             {word}
           </Item>
