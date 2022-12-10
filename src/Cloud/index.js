@@ -13,10 +13,16 @@ const Cloud = () => {
     Math.floor(Math.random() * words.length)
   );
 
-  const [activeWord, setActiveWord] = useState(new Set());
+  const [activeWords, setActiveWords] = useState(new Set());
 
   const setActiveWord = (word) => {
+    if (activeWords.has(word)) {
+      activeWords.delete(word);
+    } else {
+      activeWords.add(word);
+    }
 
+    setActiveWords(new Set(activeWords));
   };
 
   return (
