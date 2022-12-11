@@ -57,3 +57,7 @@ export const Item = styled.span`
       color: ${({ theme }) => theme.color.silver};
     `}
 `;
+
+export const RedStyle = styled.p`
+  color: ${({ theme }) => theme.color.deyork};
+`;
