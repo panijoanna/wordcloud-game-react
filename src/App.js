@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/wordcloud-game-react" element={<Form />}></Route>
         <Route path="/cloud" element={<Cloud />}></Route>
-        <Route path="/score" element={<Result/>}></Route>
+        <Route path="/result" element={<Result/>}></Route>
       </Routes>
     </>
   );
