@@ -16,6 +16,7 @@ const Cloud = () => {
 
   const [activeWords, setActiveWords] = useState(new Set());
   const [answer, setAnswer] = useState("");
+  const navigates = useNavigate();
 
   const showAnswer = () => {
     for (let word of activeWords.values()) {
@@ -51,7 +52,11 @@ const Cloud = () => {
           </Item>
         ))}
       </CloudContainer>
-      <CloudButton onClick={showAnswer}>Check answers</CloudButton>
+      <CloudButton onClick={() => {
+        showAnswer();
+        navigates("/score");
+      
+      }}>Check answers</CloudButton>
     </MainContainer>
   );
 };
