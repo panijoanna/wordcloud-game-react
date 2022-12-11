@@ -49,7 +49,7 @@ const Cloud = () => {
             {word}
           </Item>
         ))}
-        ;
+        
       </CloudContainer>
       <CloudButton onClick={showAnswer}>Check answers</CloudButton>
     </MainContainer>
