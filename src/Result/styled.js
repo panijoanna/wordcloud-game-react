@@ -6,6 +6,10 @@ export const StyledHeading = styled.h1`
   font-size: 16px;
 `;
 
+export const StyledParagraph = styled.p`
+
+`;
+
 export const ScoreContainer = styled.div`
   display: flex;
   align-items: center;
