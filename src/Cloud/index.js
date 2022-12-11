@@ -6,7 +6,6 @@ import {
   Item,
   RedParagraph,
   GreenParagraph,
-  RedParagraph
 } from "./styled";
 import { words } from "../words/words";
 import { useState } from "react";

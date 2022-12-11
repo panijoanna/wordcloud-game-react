@@ -59,9 +59,9 @@ export const Item = styled.span`
 `;
 
 export const RedParagraph = styled.p`
-  color: ${({ theme }) => theme.color.deyork};
+  color: ${({ theme }) => theme.color.cinderella};
 `;
 
 export const GreenParagraph = styled.p`
-  color: ${({ theme }) => theme.color.cinderella};
+  color: ${({ theme }) => theme.color.deyork};
 `;
