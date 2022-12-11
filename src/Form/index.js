@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 
 const Form = () => {
-
   const [name, setName] = useState("");
 
   const navigate = useNavigate();
