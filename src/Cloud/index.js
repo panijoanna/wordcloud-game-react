@@ -58,7 +58,7 @@ const Cloud = () => {
       <CloudButton
         onClick={() => {
           showAnswer();
-          navigates("/score");
+          navigates("/result");
         }}
       >
         Check answers
