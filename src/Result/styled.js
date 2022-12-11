@@ -14,7 +14,8 @@ export const StyledParagraph = styled.p`
 
 export const ScoreContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 400px;
+  padding: 200px;
 `;
