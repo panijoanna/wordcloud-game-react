@@ -6,7 +6,7 @@ const Result = () => {
 
   return (
     <ScoreContainer>
-      <ScoreParagraph>Congratulations,! Your score:</ScoreParagraph>
+      <ScoreParagraph>Congratulations, {localStorage.getItem("name")}! Your score:</ScoreParagraph>
     </ScoreContainer>
   );
 };
