@@ -17,7 +17,13 @@ const Cloud = () => {
   const [answer, setAnswer] = useState("");
 
   const showAnswer = () => {
-
+for (let word of activeWords.values()) {
+  if (words[currentQuestion].good_words.includes(word)) {
+    setAnswer("Good");
+  } else {
+    setAnswer("Bad");
+  }
+}
   };
 
   const setActiveItem = (word) => {
