@@ -8,6 +8,7 @@ export const CloudContainer = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     width: 100%;
+    height: 100%;
   }
 `;
 
