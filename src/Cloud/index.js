@@ -4,6 +4,7 @@ import {
   MainContainer,
   Heading,
   Item,
+  RedParagraph,
 } from "./styled";
 import { words } from "../words/words";
 import { useState } from "react";
@@ -21,9 +22,9 @@ const Cloud = () => {
   const showAnswer = () => {
     for (let word of activeWords.values()) {
       if (words[currentQuestion].good_words.includes(word)) {
-        setAnswer("Good");
+        setAnswer(<GreenParagraph>Good</GreenParagraph>);
       } else {
-        setAnswer("Bad");
+        setAnswer(<RedParagraph>Bad</RedParagraph>);
       }
     }
   };
