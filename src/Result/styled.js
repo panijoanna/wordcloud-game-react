@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ScoreParagraph = styled.p`
   font-family: "Rubik", sans-serif;
+  font-weight: 500;
   font-size: 16px;
 `;
 
