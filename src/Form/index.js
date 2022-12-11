@@ -10,8 +10,10 @@ import { useRef, useEffect, useState } from "react";
 
 const Form = () => {
 
-  const [nickName, setNickName] = useState("");
+  const [name, setName] = useState("");
+
   const navigate = useNavigate();
+
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -32,7 +34,7 @@ const Form = () => {
           required
           autoComplete="off"
           value={nickName}
-          onChange={({ target }) => setNickName(target.value)}
+          onChange={({ target }) => setName(target.value)}
           ref={inputRef}
           type="text"
           name="nickname"
