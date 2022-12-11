@@ -45,7 +45,7 @@ export const CloudButton = styled.button`
 
 export const Item = styled.span`
   display: inline-grid;
-  padding: 30px;
+  padding: 20px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 14px;
