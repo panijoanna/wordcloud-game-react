@@ -15,7 +15,7 @@ export const words = [
         "passenger",
         "cow"
         ],
-        "good_words": [
+        "goodWords": [
         "tiger",
         "cow",
         ]
@@ -37,7 +37,7 @@ export const words = [
         "cakes"
         ],
 
-        "good_words": [
+        "goodWords": [
         "red",
         "blue",
         "yellow",
@@ -59,7 +59,7 @@ export const words = [
         "skirt",
         "train",
         ],
-        "good_words": [
+        "goodWords": [
         "car",
         "bus",
         "train"

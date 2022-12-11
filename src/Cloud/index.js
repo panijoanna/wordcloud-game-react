@@ -22,7 +22,7 @@ const Cloud = () => {
 
   const showAnswer = () => {
     for (let word of activeWords.values()) {
-      if (words[currentQuestion].good_words.includes(word)) {
+      if (words[currentQuestion].goodWords.includes(word)) {
         setAnswer(<GreenParagraph>Good</GreenParagraph>);
       } else {
         setAnswer(<RedParagraph>Bad</RedParagraph>);
