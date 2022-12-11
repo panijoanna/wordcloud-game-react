@@ -49,14 +49,18 @@ const Cloud = () => {
             active={activeWords.has(word)}
           >
             {word}
+            {answer}
           </Item>
         ))}
       </CloudContainer>
-      <CloudButton onClick={() => {
-        showAnswer();
-        navigates("/score");
-      
-      }}>Check answers</CloudButton>
+      <CloudButton
+        onClick={() => {
+          showAnswer();
+          navigates("/score");
+        }}
+      >
+        Check answers
+      </CloudButton>
     </MainContainer>
   );
 };
