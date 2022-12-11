@@ -10,3 +10,5 @@ const Result = () => {
     </ScoreContainer>
   );
 };
+
+export default Result;
