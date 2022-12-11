@@ -17,13 +17,13 @@ const Cloud = () => {
   const [answer, setAnswer] = useState("");
 
   const showAnswer = () => {
-for (let word of activeWords.values()) {
-  if (words[currentQuestion].good_words.includes(word)) {
-    setAnswer("Good");
-  } else {
-    setAnswer("Bad");
-  }
-}
+    for (let word of activeWords.values()) {
+      if (words[currentQuestion].good_words.includes(word)) {
+        setAnswer("Good");
+      } else {
+        setAnswer("Bad");
+      }
+    }
   };
 
   const setActiveItem = (word) => {
@@ -51,7 +51,7 @@ for (let word of activeWords.values()) {
         ))}
         ;
       </CloudContainer>
-      <CloudButton>Check answers</CloudButton>
+      <CloudButton onClick={showAnswer}>Check answers</CloudButton>
     </MainContainer>
   );
 };
