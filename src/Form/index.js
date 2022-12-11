@@ -22,6 +22,10 @@ const Form = () => {
     }
   }, []);
 
+  useEffect(() => {
+    localStorage.setItem("name", name);
+  }, [name]);
+
   const onFormSubmit = (event) => {
     event.preventDefault();
   };
