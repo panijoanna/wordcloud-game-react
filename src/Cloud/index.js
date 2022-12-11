@@ -14,6 +14,7 @@ const Cloud = () => {
   );
 
   const [activeWords, setActiveWords] = useState(new Set());
+  const [answer, setAnswer] = useState("");
 
   const setActiveItem = (word) => {
     if (activeWords.has(word)) {
