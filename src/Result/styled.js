@@ -7,7 +7,9 @@ export const StyledHeading = styled.h1`
 `;
 
 export const StyledParagraph = styled.p`
-
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 `;
 
 export const ScoreContainer = styled.div`
