@@ -1,3 +1,5 @@
 import { render } from "@testing-library/react";
 
-it("does the login page show up", () => {});
+it("does the login page show up", () => {
+    render(<Form/>);
+});
