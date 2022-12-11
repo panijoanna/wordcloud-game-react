@@ -7,6 +7,7 @@ import {
 } from "./styled";
 import { words } from "../words/words";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Cloud = () => {
   const [currentQuestion, setCurrentQuestion] = useState(
