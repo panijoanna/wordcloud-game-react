@@ -1,12 +1,13 @@
 import { useState } from "react";
-import { ScoreContainer, ScoreParagraph } from "./styled";
+import { ScoreContainer, StyledHeading } from "./styled";
 
 const Result = () => {
   const [score, setScore] = useState(0);
 
   return (
     <ScoreContainer>
-      <ScoreParagraph>Congratulations, {localStorage.getItem("name")}! Your score:</ScoreParagraph>
+      <StyledHeading>Congratulations, {localStorage.getItem("name")}!</StyledHeading> 
+      Your score:</ScoreParagraph>
     </ScoreContainer>
   );
 };
