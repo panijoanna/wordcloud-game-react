@@ -58,6 +58,10 @@ export const Item = styled.span`
     `}
 `;
 
-export const RedStyle = styled.p`
+export const RedParagraph = styled.p`
   color: ${({ theme }) => theme.color.deyork};
+`;
+
+export const GreenParagraph = styled.p`
+  color: ${({ theme }) => theme.color.cinderella};
 `;
