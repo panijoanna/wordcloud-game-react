@@ -10,6 +10,7 @@ export const StyledParagraph = styled.p`
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  margin: 0;
 `;
 
 export const ScoreContainer = styled.div`
