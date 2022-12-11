@@ -44,7 +44,7 @@ const Cloud = () => {
     <MainContainer>
       <Heading>{words[currentQuestion].question}</Heading>
       <CloudContainer>
-        {words[currentQuestion].all_words.map((word, index) => (
+        {words[currentQuestion].allWords.map((word, index) => (
           <Item
             key={index}
             onClick={() => setActiveItem(word)}

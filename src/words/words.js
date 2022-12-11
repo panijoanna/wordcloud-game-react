@@ -1,7 +1,7 @@
 export const words = [
     {
     question: "select animals",
-        "all_words": [
+        "allWords": [
         "hole",
         "sofa",
         "pear",
@@ -22,7 +22,7 @@ export const words = [
     },
     {
     question: "select colors",
-        "all_words": [
+        "allWords": [
         "jeans",
         "existence",
         "ink",
@@ -47,7 +47,7 @@ export const words = [
     },
     {
     question: "select vehicles", 
-        "all_words":
+        "allWords":
         [
         "belief",
         "wire",
