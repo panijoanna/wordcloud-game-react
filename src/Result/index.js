@@ -7,7 +7,7 @@ const Result = () => {
   return (
     <ScoreContainer>
       <StyledHeading>
-        Congratulations, {localStorage.getItem("name")}!
+        Congratulations, {JSON.parse(localStorage.getItem("name"))}!
       </StyledHeading>
       <StyledParagraph>Your score:</StyledParagraph>
     </ScoreContainer>
