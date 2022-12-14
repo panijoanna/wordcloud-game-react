@@ -22,7 +22,7 @@ const Form = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("name", name);
+    localStorage.setItem("name",  JSON.stringify(name));
   }, [name]);
 
   const onFormSubmit = (event) => {
